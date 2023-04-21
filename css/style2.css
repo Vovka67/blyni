@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "IBM Plex Sans";
+}
+
+.wrapper {
+    width: 1410px;
+    margin: 0 auto;
+    padding-left: 150px;
+}
+
+menu {
+    display: flex;
+    height: 102px;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-right: 331px;
+    margin-bottom: 29px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin: 44px 30px 48px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.glav li:hover {
+    border: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+main {
+    height: 1050px;
+}
+
+.galery {
+    padding-top: 94px;
+}
+
+.galery_text {
+    font-size: 64px;
+}
+
+.gray_text {
+    font-weight: 300;
+    color: #BDBDBD;
+}
+
+.black_text {
+    font-weight: 700;
+    color: #333333;
+}
+
+.block1 {
+    display: flex;
+}
+
+.img_galery {
+    padding-top: 61px;
+}
+
+.block1 img {
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.photo_2 {
+    display: inline-block;
+    position: relative;
+}
+
+.photo_2:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    right: 25px;
+    bottom: 29px;
+    z-index: 1;
+    background: #eeeeee;
+    color: #000000;
+    text-align: center;
+    font-size: 13px;
+    padding: 40px 0px;
+}
+
+.button_next {
+    display: flex;
+}
+
+.str {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-right: 30px;
+    color: #333333;
+}
+
+.str1 {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-right: 30px;
+    color: #BDBDBD;
+}
+
+.str2 {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #BDBDBD;
+}
+
+.button {
+    display: flex;
+    margin-top: 60px;
+    padding-bottom: 120px;
+}
+
+.strela1 {
+    height: 55px;
+    width: 55px;
+    background-color: #ffffff;
+    border: #F2F2F2 solid 1px;
+    margin-left: 30px;
+}
+
+.strela1:hover {
+    background-color: #dbdbdb;
+}
+
+.strela3 {
+    height: 55px;
+    width: 55px;
+    background-color: #ffffff;
+    border: #F2F2F2 solid 1px;
+    margin-left: 18px;
+}
+
+.strela3:hover {
+    background-color: #f2f2f2;
+}
+
+.strela2 {
+    margin-left: 15px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.strela {
+    display: flex;
+}
+
+
+footer {
+    display: flex;
+    background: #2C2C2C;
+    height: 450px;
+}
+
+.footer_logo {
+    margin: 58px 80px 116px 330px;
+}
+
+.info {
+    margin: 58px 120px 130px 0px;
+    color: white;
+    font-weight: 500;
+}
+
+.info_text {
+    font-weight: 700;
+}
+
+.info p {
+    padding-bottom: 25px;
+}
+
+.contact {
+    margin: 58px 157px 130px 0px;
+    color: white;
+    font-weight: 500;
+}
+
+.contact2 {
+    font-weight: 700;
+}
+
+.adres {
+    margin-top: 20px;
+}
+
+.number3 {
+    margin-top: 70px;
+}
+
+.email {
+    margin-top: 60px;
+}
+
+.social_network {
+    margin: 50px 157px 130px 0px;
+    color: white;
+    font-weight: 500;
+}
+
+.social_text {
+    font-weight: 700;
+}
+
+.facebook_img {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.twitter_img {
+    margin-right: 20px;
+}
+
+.in_img {
+    margin-right: 20px;
+}
+
+.line {
+    border-bottom: 1px solid;
+    opacity : 0.1;
+}
+
+.text_footer {
+    background-color: #2C2C2C;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.text_footer p {
+    color: #FFFFFF;
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style5.css">
+    <script src="java.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <menu>
+            <div class="logo"><img src="img/logo.png" alt=""></div>
+            <ul class="glav">
+                <a href="index.html">
+                    <li>ГЛАВНАЯ</li>
+                </a>
+                <a href="index2.html">
+                    <li>ГАЛЕРЕЯ</li>
+                </a>
+                <a href="index3.html">
+                    <li>ПРОЕКТЫ</li>
+                </a>
+                <a href="index4.html">
+                    <li>СЕРТИФИКАТЫ</li>
+                </a>
+                <a href="index5.html">
+                    <li>КОНТАКТЫ</li>
+                </a>
+            </ul>
+        </menu>
+
+
+        <main>
+            <section class="project">
+                <div class="project_text">
+                    <p class="gray_text">КОНТАКТНАЯ</p>
+                    <p class="black_text">ИНФОРМАЦИЯ</p>
+                    <div>
+                        <p class="d_p">«Digital Project»</p>
+                        <p class="adres">г.Караганда,ул.Телевизионная 10</p>
+                    </div>
+                    <div>
+                        <p class="number">+7 (701) 77 76 811</p>
+                    </div>
+                    <div>
+                        <p class="pochta">Galym.sultanov@mail.ru</p>
+                    </div>
+                    <div class="button_project">
+                        <a class="link_readg" href="#">Открыть popup</a>
+                        <div class="popup-fade">
+                            <div class="popup">
+                                <h1 class="vopros">Задать вопрос</h1>
+                                <a class="popup-close" href="#">×</a>
+                                <form class="input">
+                                    <div><input class="text1" placeholder="Имя" type="text"> </div>
+                                    <div><input class="text2" placeholder="Номер телефона" type="text"></div>
+                                    <div><input class="text3" placeholder="E-mail" type="text"></div>
+                                    <div><input class="text4" placeholder="Интересующий товар/услуга" type="text"></div>
+                                    <div><input class="text5" placeholder="Сообщения" type="text"></div>
+                                    <div class="otvecnost">
+                                        <input type="checkbox">
+                                        <label for="ayay"><b> Отправляя заявку Вы соглашаетесь
+                                            с политикой <br>
+                                            конфиденциальности</b>
+                                      </div>
+                                      <div class="dsds2">
+                                        <a href="#" class="link_readg2">ОТПРАВИТЬ →</a>
+                                      
+                                      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+                                  </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <script src="https://yandex.st/jquery/2.1.1/jquery.min.js"></script>
+                <script>
+                    $(document).ready(function ($) {
+                        $('.link_readg').click(function () {
+                            $('.popup-fade').fadeIn();
+                            return false;
+                        });
+
+                        $('.popup-close').click(function () {
+                            $(this).parents('.popup-fade').fadeOut();
+                            return false;
+                        });
+
+                        $(document).keydown(function (e) {
+                            if (e.keyCode === 27) {
+                                e.stopPropagation();
+                                $('.popup-fade').fadeOut();
+                            }
+                        });
+
+                        $('.popup-fade').click(function (e) {
+                            if ($(e.target).closest('.popup').length == 0) {
+                                $(this).fadeOut();
+                            }
+                        });
+                    });
+                </script>
+
+
+
+
+
+
+
+
+
+
+                <img class="img_map" src="img/image 14.png">
+            </section>
+    </div>
+    </main>
+
+    <footer>
+        <div><img class="footer_logo" src="img/foter_logo.png" alt=""></div>
+        <div class="info">
+            <p class="info_text">Информация</p>
+            <p>Главная</p>
+            <p>Галерея</p>
+            <p>Проекты</p>
+            <p>Сертификаты</p>
+            <p>Контакты</p>
+        </div>
+        <div class="contact">
+            <p class="contact2">Контакты</p>
+            <p class="adres"><img src="img/geolocation.png" alt="">100000, Республика Казахстан,
+                г. Караганда, ул. Телевизионная 10</p>
+            <p><img class="number3" src="img/phone.png" alt="">+7 (701) 77 76 811</p>
+            <p><img class="email" src="img/mail.png" alt="">Galym.sultanov@mail.ru</p>
+        </div>
+        <div class="social_network">
+            <p class="social_text">Социальные сети</p>
+            <div>
+                <img class="facebook_img" src="img/facebook.png" alt="">
+                <img class="twitter_img" src="img/twitter.png" alt="">
+                <img class="in_img" src="img/in.png" alt="">
+                <img class="pinterest_img" src="img/pinterest.png" alt=""><br>
+            </div>
+        </div>
+    </footer>
+    <div class="line"></div>
+    <div class="text_footer">
+        <p>© 2019 Digital Project. Все права защищены.</p>
+    </div>
+
+</body>
+
+</html>

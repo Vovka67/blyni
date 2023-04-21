@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "IBM Plex Sans";
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    padding-left: 150px;
+}
+
+menu {
+    display: flex;
+    height: 102px;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-right: 331px;
+    margin-bottom: 29px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin: 44px 30px 48px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.glav li:hover {
+    border: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+main {
+    height: 800px;
+}
+
+.gray_text {
+    font-weight: 300;
+    color: #BDBDBD;
+    font-size: 64px;
+    margin-top: 92px;
+}
+
+.black_text {
+    font-weight: 700;
+    color: #333333;
+    font-size: 64px;
+}
+
+.project {
+    display: flex;
+}
+
+.d_p {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 34px;
+}
+
+.number {
+    margin-top: 43px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.pochta {
+    margin-top: 52px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.img_map:hover {
+    transform: scale(1.2);
+}
+
+.img_map {
+    transition: 1s;
+    margin-top: 48px;
+    margin-left: 34px;
+}
+
+.button_project {
+    font-weight: 400;
+    margin-top: 72px;
+}
+
+.link_readg {
+    background-color: #020202;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 25px 50px;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    background: #2C2C2C;
+    height: 450px;
+}
+
+.footer_logo {
+    margin: 58px 80px 116px 330px;
+}
+
+.info {
+    margin: 58px 120px 130px 0px;
+    color: white;
+    font-weight: 500;
+}
+
+.info_text {
+    font-weight: 700;
+}
+
+.info p {
+    padding-bottom: 25px;
+}
+
+.contact {
+    margin: 58px 157px 130px 0px;
+    color: white;
+    font-weight: 500;
+}
+
+.contact2 {
+    font-weight: 700;
+}
+
+.adres {
+    margin-top: 20px;
+}
+
+.number3 {
+    margin-top: 70px;
+}
+
+.email {
+    margin-top: 60px;
+}
+
+.social_network {
+    margin: 50px 157px 130px 0px;
+    color: white;
+    font-weight: 500;
+}
+
+.social_text {
+    font-weight: 700;
+}
+
+.facebook_img {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.twitter_img {
+    margin-right: 20px;
+}
+
+.in_img {
+    margin-right: 20px;
+}
+
+.line {
+    border-bottom: 1px solid;
+    opacity : 0.1;
+}
+
+.text_footer {
+    background-color: #2C2C2C;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.text_footer p {
+    color: #FFFFFF;
+}
+
+
+
+
+  
+
+.input {
+    display: inline;
+    margin-top: 20px;
+}
+
+.poput-open{
+    background-color: #020202;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 25px 50px;
+    text-decoration: none;
+}
+
+.popup-fade {
+	display: none;
+}
+
+.popup-fade:before {
+	content: '';
+	background: #000;
+	position: fixed; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+	opacity: 0.7;
+	z-index: 9999;
+}
+
+.popup {
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	padding: 50px;
+	width: 400px;
+    height: 500px;
+	margin-left: -200px;	
+	background: #fff;
+	border: 1px solid orange;
+	border-radius: 4px; 
+	z-index: 99999;
+	opacity: 1;	
+}
+.popup-close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+
+.text1 {
+    height: 35px;
+    width: 355px;
+    padding: 5px;
+    margin: 3px;
+    background: rgba(243, 243, 243, 1);
+    border: #ffffff solid 1px;
+    padding-left: 20px;
+  }
+  .text2 {
+    height: 35px;
+    width: 355px;
+    padding: 5px;
+    margin: 3px;
+    background: rgba(243, 243, 243, 1);
+    border: #ffffff solid 1px;
+    padding-left: 20px;
+  }
+  .text3 {
+    height: 35px;
+    width: 355px;
+    padding: 5px;
+    margin: 3px;
+    background: rgba(243, 243, 243, 1);
+    border: #ffffff solid 1px;
+    padding-left: 20px;
+  }
+  .text4 {
+    height: 35px;
+    width: 355px;
+    padding: 5px;
+    margin: 3px;
+    background: rgba(243, 243, 243, 1);
+    border: #ffffff solid 1px;
+    padding-left: 20px;
+  }
+
+  .text5 {
+    height: 35px;
+    width: 355px;
+    padding: 5px;
+    margin: 3px;
+    background: rgba(243, 243, 243, 1);
+    border: #ffffff solid 1px;
+    padding-left: 20px;
+    padding-bottom: 110px;
+  }
+
+  .otvecnost {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .ayay {
+   color: #333333;
+  }
+
+  .link_readg2 {
+    background-color: #020202;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 15px 140px;
+    text-decoration: none;
+  }
+  .dsds2 {
+    margin-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .vopros {
+    text-align: center;
+  }
+
